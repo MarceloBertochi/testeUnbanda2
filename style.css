@@ -1,3 +1,8 @@
+
+/*
+ ******************************* 
+ Configuração geral da página
+ */
 html,
 body {
     width: 100%;
@@ -9,7 +14,11 @@ body {
     color: white;
 }
 
-.figuratopo {
+/*
+ ******************************* 
+ Configuração da figura que fica no topo da página
+ */
+.figuratopo, .links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +28,14 @@ body {
     display: block;
     margin: 0 auto;
     width: 100vw;
-    /* A imagem ocupará 100% da largura da janela */
     height: auto;
-    /* A altura será ajustada proporcionalmente */
 }
 
 
+/*
+ ******************************* 
+ Configuração dos textos que tem a div como classe texto
+ */
 .texto {
     padding-left: 10px;
     padding-right: 10px;
@@ -33,10 +44,57 @@ body {
     text-align: justify;
 }
 
-li {
+/*
+ ******************************* 
+ Configuração dos links
+ */
+/*a {
     color: white;
+    text-decoration: none;
+}*/
+
+/*
+ ******************************* 
+ Configuração da lista ordenada da navegação
+ */
+ul {
+   
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    width: 100vw;
+    background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+    
+    
 }
 
-a{
-color: white;
+ul li {
+    
+    float: left;
+    }
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: white;
+background: url(imagens/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover{
+    color: green ;
+    background: #44cade;
+}
+
+#home #navegacao .home a,
+#orixas #navegacao .orixas a
+{
+    color: green ;
+    background: #44cade;
 }
