@@ -11,6 +11,7 @@ body {
     margin: 0;
     background-color: black;
     color: white;
+  
 }
 
 /*
@@ -91,12 +92,14 @@ ul .primeiro a {
 ul a:hover {
     color: green;
     background: #44cade;
+    background: url(imagens/fundo-horizontal2.png) repeat-y;
 }
 
 #home #navegacao .home a,
 #orixas #navegacao .orixas a {
     color: green;
     background: #44cade;
+    background: url(imagens/fundo-horizontal2.png) repeat-y;
 }
 
 .tabela,
