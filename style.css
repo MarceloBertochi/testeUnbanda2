@@ -58,7 +58,7 @@ h1 {
  ******************************* 
  Configuração da lista ordenada da navegação
  */
-ul {
+ #navegacao {
 
     margin: 10px;
     padding: 0;
@@ -66,16 +66,14 @@ ul {
     width: 100vw;
     background: #159cb0 url(imagens/fundo-horizontal.png) repeat-x;
     float: left;
-
-
 }
 
-ul li {
+#navegacao  li {
 
     float: left;
 }
 
-ul a {
+#navegacao  a {
     display: block;
     padding: 0 2em;
     line-height: 2.5em;
@@ -89,15 +87,15 @@ ul .primeiro a {
     background: none;
 }*/
 
-ul a:hover {
-    color: green;
+#navegacao  a:hover {
+    
     background: #44cade;
     background: url(imagens/fundo-horizontal2.png) repeat-y;
 }
 
 #home #navegacao .home a,
 #orixas #navegacao .orixas a {
-    color: green;
+    
     background: #44cade;
     background: url(imagens/fundo-horizontal2.png) repeat-y;
 }
