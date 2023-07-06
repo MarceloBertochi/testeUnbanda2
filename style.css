@@ -1,3 +1,10 @@
+* {
+    -webkit-box-sizing: border-box !important;
+      -moz-box-sizing: border-box !important;
+      -ms-box-sizing: border-box !important;
+      box-sizing: border-box !important;
+}
+
 /*
  ******************************* 
  Configuração geral da página
@@ -12,6 +19,13 @@ body {
     background-color: black;
     color: white;
   
+}
+
+.conteudo {
+    width: 100%; /* usar largura total */
+    max-width: 1000px; /* limitar largura total em 1000px */
+    margin: 0 auto; /* centralizar conteudo com margem 0 vertical e automatica horizontal */
+    padding: 10px;
 }
 
 /*
@@ -114,4 +128,12 @@ border: 5px #44cade solid;
 td {
     padding: 10px;
     text-align: center;
+}
+
+
+@media( max-width: 768px ) {
+    .conteudo {
+        max-width: 100%;
+    }
+    
 }
