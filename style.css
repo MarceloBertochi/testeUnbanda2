@@ -16,8 +16,8 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color: #388E3C;
-    color: black;
+    background-color: black;
+    color: white;
   
 }
 
@@ -74,7 +74,7 @@ text-align: center;
  Configuração dos titulos
  */
 h1 , h2, h3 {
-    color: blue;
+    color: green;
     text-align: center;
 }
 
